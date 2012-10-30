@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  24 OCT 2012 15:54
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  30 OCT 2012 19:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**\nonstopmode \input /Users/Yen/ytan10242012.git/my1rpack/yen.tex
-(/Users/Yen/ytan10242012.git/my1rpack/yen.tex
+**\nonstopmode \input /Users/Yen/ytan10242012.git/my1rpack/problem1test.tex
+(/Users/Yen/ytan10242012.git/my1rpack/problem1test.tex
 (/usr/local/texlive/2012/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
 (/usr/local/texlive/2012/texmf-dist/tex/latex/base/size10.clo
@@ -337,8 +337,8 @@ Package: preview 2010/02/14 11.86 (AUCTeX/preview-latex)
 \pr@box=\box36
 \pr@output=\toks24
 )
-(./yen.aux)
-\openout1 = `yen.aux'.
+(./problem1test.aux)
+\openout1 = `problem1test.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
 LaTeX Font Info:    ... okay on input line 11.
@@ -424,18 +424,18 @@ Overfull \hbox (160.89pt too wide) in paragraph at lines 183--183
 Preview: Tightpage 0 0 0 0
 [1{/usr/local/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 Non-PDF special ignored!
-Non-PDF special ignored!] (./yen.aux) ) 
+Non-PDF special ignored!] (./problem1test.aux) ) 
 Here is how much of TeX's memory you used:
  10036 strings out of 493488
- 193452 string characters out of 3141326
+ 193533 string characters out of 3141326
  226425 words of memory out of 3000000
  13162 multiletter control sequences out of 15000+200000
  3640 words of font info for 14 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 56i,7n,55p,450b,589s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/local/texlive/2012/texmf-dist/font
-s/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on yen.pdf (1 page, 14078 bytes).
+ 56i,7n,55p,459b,589s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/local/texlive/2012/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+Output written on problem1test.pdf (1 page, 14078 bytes).
 PDF statistics:
  15 PDF objects out of 1000 (max. 8388607)
  10 compressed objects within 1 object stream
