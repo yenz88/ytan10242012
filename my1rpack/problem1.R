@@ -8,5 +8,4 @@ problem1 = function(filename=NULL,fcnname=NULL,range=NULL,nsample=NULL,compile=N
   if(compile==TRUE){
     tools::texi2pdf(fullname);
   }
-    
 }

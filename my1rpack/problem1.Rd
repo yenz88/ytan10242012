@@ -1,15 +1,10 @@
 \name{problem1}
 \alias{problem1}
-%- Also NEED an '\alias' for EACH other topic documented here.
-\title{
-Solution to Problem 1
-}
-\description{
-This generates a tex file that can be compiled to generate a pdf file of a function
-}
+\title{Solution to Problem 1}
+\description{This generates a tex file that can be compiled to generate a pdf file of a function. It graphs a dnorm function}
 \usage{
-problem1(filename, fcnname, range, nsample, compile)
-}
+          problem1(filename, fcnname, range, nsample, compile)
+       }
 \arguments{
   \item{filename}{character vector}
   \item{fcnname}{function object}
@@ -17,14 +12,10 @@ problem1(filename, fcnname, range, nsample, compile)
   \item{nsample}{numeric vector}
   \item{compile}{logical value}
 }
-\details{
-%%  ~~ If necessary, more details than the description above ~~
-}
+
 \value{
   \itemize{
-    \item nothing returned
-          
-          
+    \item nothing returned  
           }
 }
 \author{Yen
