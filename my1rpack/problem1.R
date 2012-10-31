@@ -1,11 +1,15 @@
-problem1 = function(filename=NULL,fcnname=NULL,range=NULL,nsample=NULL,compile=NULL){
+problem1 = function(filename=NULL,
+                    fcnobj=NULL,
+                    range=NULL,
+                    nsample=NULL,
+                    compile=NULL)  {
   xval = seq(range[1], range[2], length=nsample)
-  yval = fcnname(xval)
-  fullname = paste(filename, '.tex', sep = '')
-  tikz(file=fullname,standAlone=T);
+  yval = fcnobj(xval)
+  outputtexfile= paste(filename, '.tex', sep = '')
+  tikz(file=outputtexfile, standAlone=TRUE); #Start tikZ
   plot(xval,yval, type='l')
-  dev.off();
+  dev.off();                                #ends tikZ
   if(compile==TRUE){
-    tools::texi2pdf(fullname);
+    tools::texi2pdf(outputtexfile);
+                  }
   }
-}
