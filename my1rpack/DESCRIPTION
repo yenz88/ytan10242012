@@ -1,14 +1,9 @@
-Package: Homework 2 package
+Package: Homework2
 Type: Package
 Title: Latex graphing function and dataset of winter olympics medal winners
 Version: 1.0
 Date: 2012-10-30
 Author: Yen Theng Tan
 Maintainer: Yen <yen@jhu.edu>
-Description: This package contains two objects. Problem1 is a function that returns 
-a tex file that generates a graph based on the chosen distribution and parameters. 
-Problem2 is a dataset of winter olympics medal winners. 
-It also contains two objects that sort the data into the number of medal winners 
-by country and by medal.
+Description: This package contains two objects. Problem1 is a function that returns a tex file that generates a graph based on the chosen distribution and parameters. Problem2 is a dataset of winter olympics medal winners. It also contains a list object problem2 that sort the data into the number of medal winners by country and by medal.
 License: GPL-3
-

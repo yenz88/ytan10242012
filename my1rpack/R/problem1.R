@@ -6,6 +6,7 @@ problem1 = function(filename=NULL,
   xval = seq(range[1], range[2], length=nsample)
   yval = fcnobj(xval)
   outputtexfile= paste(filename, '.tex', sep = '')
+  require(tikzDevice)
   tikz(file=outputtexfile, standAlone=TRUE); #Start tikZ
   plot(xval,yval, type='l')
   dev.off();                                #ends tikZ
