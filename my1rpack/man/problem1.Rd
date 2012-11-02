@@ -21,6 +21,6 @@
 \author{Yen
 }
 \examples{
-          problem1('yen', dnorm, c(-5,5), 100, TRUE)
+          problem1('problem1test', dnorm, c(-5,5), 100, TRUE)
           }
 
