@@ -9,6 +9,5 @@
 \keyword{package}
 \examples{
 			problem1('yen', dnorm, c(-5,5), 100, T)
-        	outputlength
-          }
+      }
 
