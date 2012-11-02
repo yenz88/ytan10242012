@@ -18,4 +18,5 @@
 }
 \details{}
 \source{\url{http://www.guardian.co.uk/news/datablog/2010/feb/11/winter-olympics-medals-by-country}}
+\examples{data(problem2)}
 \keyword{datasets}
