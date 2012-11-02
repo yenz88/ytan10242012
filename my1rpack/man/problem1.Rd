@@ -1,7 +1,7 @@
 \name{problem1}
 \alias{problem1}
-\title{Solution to Problem 1}
-\description{This generates a tex file that can be compiled to generate a pdf file of a function. It graphs a dnorm function}
+\title{Graph generator}
+\description{This graphs and generates a .tex and a .pdf file of a specified function over a specified domain. }
 \usage{
           problem1(filename, fcnobj, range, nsample, compile)
        }

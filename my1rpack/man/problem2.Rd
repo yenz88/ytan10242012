@@ -1,8 +1,8 @@
 \name{problem2}
 \alias{problem2}
 \docType{data}
-\title{Solution to Problem 2}
-\description{This is a workspace showing data of winter olympics medal winners from 1924 until 2006. the functions problem2 sorts these medal winners by country and by medal}
+\title{Winter Olympics: Which country has won the most medals?}
+\description{The IOC has collected and published data of winter olympics medal winners from 1924 until 2006. the functions problem2 sorts these medal winners by country and by medal}
 \usage{
           problem2
                  }
